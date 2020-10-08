@@ -57,10 +57,10 @@ type Weather struct {
 		Speed float64 `json:"speed"`
 	} `json:"wind"`
 	Rain *struct {
-		OneH int `json:"1h"`
+		OneH float64 `json:"1h"`
 	} `json:"rain"`
 	Snow *struct {
-		OneH int `json:"1h"`
+		OneH float64 `json:"1h"`
 	} `json:"snow"`
 }
 
